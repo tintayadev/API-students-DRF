@@ -12,7 +12,7 @@ def index(request):
 #import data
 def import_students_from_excel(request):
 
-    file_path = "students_data.xlsx"
+    file_path = "/Users/paulotintaya/Django projects ;3/API students/backend/api/students_data.xlsx" # get the direcition with copy path optiion from vscode
     workbook = openpyxl.load_workbook(file_path)
     sheet = workbook.active
 
